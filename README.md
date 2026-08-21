@@ -1,347 +1,456 @@
 # 🌾 AgriDirect – West Godavari
 
-Direct Digital Marketplace for Farmers and Buyers
-AgriDirect is a digital farmer-to-market platform designed to connect farmers directly with buyers, helping farmers sell their agricultural produce without unnecessary middlemen.
+### Direct Farm-to-Market Agricultural Marketplace for West Godavari, Andhra Pradesh
 
-The platform focuses on agricultural communities in West Godavari, Andhra Pradesh, providing a simple, bilingual, mobile-friendly marketplace where farmers can list their produce and buyers can discover and order fresh products directly from them.
+AgriDirect is a **Smart India Hackathon prototype** that connects farmers directly with buyers through a digital agricultural marketplace.
 
-🎯 Problem Statement
-Farmers often depend on multiple intermediaries to sell their agricultural products. This can result in:
+The platform is designed to help farmers list their agricultural produce, reach buyers directly, improve price transparency, and reduce unnecessary dependence on intermediaries.
 
-Lower earnings for farmers
-Higher prices for buyers
-Limited market access
-Lack of price transparency
-Difficulty finding direct customers
-Limited digital tools for rural farmers
-AgriDirect aims to reduce these problems by creating a direct digital connection between farmers and buyers.
+The application focuses on the **West Godavari region of Andhra Pradesh** and provides a simple, mobile-friendly experience with **English and Telugu** language support.
 
-💡 Solution
-AgriDirect provides a single platform where:
+---
 
-👨‍🌾 Farmer → 🛒 AgriDirect Marketplace → 🧑‍💼 Buyer
+## 🎯 Problem Statement
 
-Farmers can list their products, manage stock and orders, while buyers can browse, search, filter and purchase agricultural produce.
+Farmers often face difficulties in:
 
-✨ Key Features
-👨‍🌾 Farmer Features
-Farmer registration and login
-Farmer dashboard
-Add agricultural produce
-Edit and delete products
-Update product availability
-Manage quantity and pricing
-Add product images
-View incoming orders
-Accept or reject orders
-Update order status
-Track earnings
-View active listings
-Product information in English and Telugu
-🛒 Buyer Features
-Buyer registration and login
-Browse agricultural products
-Search products
-Search using English and Telugu names
-Filter by category
-Filter by mandal
-Filter by price
-Sort products by price
-View detailed product information
-View farmer information
-Add products to wishlist
-Place orders
-Track orders
-View order history
-Cancel eligible orders
-👨‍💼 Admin Features
-Admin authentication
-Admin dashboard
-View platform statistics
-Manage farmers
-Manage buyers
-Manage products
-Manage orders
-Monitor marketplace activity
-🥭 Real-World Produce Images
-The marketplace uses real photographs for agricultural products instead of generic placeholders.
+* Reaching buyers directly
+* Finding fair market prices
+* Getting transparent information about buyers
+* Selling produce without depending heavily on intermediaries
+* Managing orders and customers digitally
 
-Current produce examples include:
+Buyers also face challenges in finding fresh agricultural produce directly from local farmers.
 
-🍅 Tomato
-🍌 Banana
-🥥 Coconut
-🍆 Brinjal
-🌾 Paddy
-🌱 Sugarcane
-🌶️ Green Chilli
-🥬 Spinach / Leafy Greens
-🥒 Okra / Bendakaya
-Product images are connected to the actual product data and displayed across marketplace and product-detail pages.
+### 💡 Our Solution
 
-📦 Order Management
-AgriDirect provides an end-to-end order workflow.
+AgriDirect provides a digital platform where:
 
-Buyer
-Browse products
-Select a product
-Place an order
-Receive order confirmation
-Track order status
-Farmer
-Receive the order
-Review order details
-Accept or reject the order
-Process the order
-Mark it as ready
-Complete the order
-Order Status
-Pending
-   ↓
-Accepted / Rejected
-   ↓
-Processing
-   ↓
-Ready
-   ↓
-Completed
-Buyers can cancel orders when cancellation is permitted.
+**Farmers → List Produce → Buyers Discover → Negotiate/Buy → Orders Tracked**
 
-📊 Inventory Management
-The platform manages product stock during ordering.
+The platform creates a direct connection between agricultural producers and buyers.
 
-When a buyer places an order:
+---
 
-Available stock is checked
-Orders exceeding available stock are blocked
-Product quantity is automatically reduced
-Unavailable products cannot be ordered
-🔐 Security & Role-Based Access
-AgriDirect implements role-based access control for:
+## 🚀 Key Features
 
-Farmers
-Buyers
-Administrators
-Users can only access features authorized for their role.
+### 🌾 Farmer Features
 
-The backend also verifies product ownership and prevents one farmer from modifying another farmer's products or orders.
+* Farmer registration and login
+* Farmer profile
+* Farmer dashboard
+* Add agricultural produce
+* Edit own listings
+* Delete own listings
+* View available listings
+* View incoming buyer orders
+* Accept or reject orders
+* Update order status
+* View earnings
+* Upload produce photographs
+* Simple mobile-friendly farmer interface
 
-Authentication uses JWT with HTTP-only cookies.
+### 🛒 Buyer Features
 
-🌐 Bilingual Support
-AgriDirect supports:
+* Buyer registration and login
+* Buyer dashboard
+* Browse agricultural marketplace
+* Search produce
+* Filter by category
+* Filter by mandal
+* Filter by price
+* View product details
+* View farmer information
+* Wishlist products
+* Buy produce
+* Make offers
+* View own orders
+* Track order status
 
-🇬🇧 English
-🇮🇳 Telugu (తెలుగు)
-This makes the platform more accessible to farmers and buyers in Andhra Pradesh.
+### 👨‍💼 Admin Features
 
-📱 Responsive Design
-The application follows a mobile-first approach and is designed to work across:
+* Admin login
+* Admin dashboard
+* View farmers
+* View buyers
+* View products
+* View orders
+* Monitor marketplace activity
 
-📱 Mobile phones
-📲 Tablets
-💻 Laptops
-🖥️ Desktop computers
-🧪 Testing
-Backend functionality has been tested across important application flows.
+---
 
-Backend Test Result
-61/61 tests passed
+## 🌱 Agricultural Products
 
-Tests include:
+The marketplace supports different agricultural categories, including:
 
-Authentication
-Role separation
-Farmer ownership
-Product management
-Stock management
-Order creation
-Order status validation
-Product filtering
-Wishlist functionality
-Admin authentication
-Frontend Testing
-Full automated UI testing is planned for:
+### 🌾 Crops
 
-Farmer workflows
-Buyer workflows
-Admin workflows
-Authentication
-Marketplace
-Orders
-Wishlist
-English/Telugu switching
-Mobile responsiveness
-🚀 Planned Enhancements
-The following features are planned for future versions:
+* Paddy
+* Sugarcane
 
-🔔 Real-Time Order Notifications
-Farmers will receive:
+### 🍌 Fruits
 
-Live notification badge
-New-order toast notification
-Notification history
-Unread notification count
+* Banana
+* Coconut
+
+### 🥬 Vegetables
+
+* Tomato
+* Brinjal / Vankaya
+* Green Chilli
+* Okra / Bendakaya
+* Spinach and leafy vegetables
+* Other seasonal vegetables
+
+The marketplace uses **realistic, category-specific agricultural photographs** so that products are visually represented according to the actual produce being sold.
+
+---
+
+## 🤖 AI Prototype Features
+
+AgriDirect includes prototype AI functionality designed for future expansion.
+
+Potential AI-assisted features include:
+
+* 🌾 AI-based price recommendations
+* 📈 Agricultural demand forecasting
+* 🤝 Smart buyer-product matching
+
+These AI features are currently considered **prototype/demo functionality** and should not be treated as live market predictions unless connected to validated real-world datasets and production ML models.
+
+---
+
+## 🌐 Language Support
+
+The platform supports:
+
+* 🇬🇧 English
+* 🇮🇳 Telugu (తెలుగు)
+
+Telugu support is particularly important for making the farmer-facing interface easier to use for local agricultural communities in Andhra Pradesh.
+
+---
+
+## 📍 Regional Focus
+
+### West Godavari, Andhra Pradesh
+
+AgriDirect is designed around agricultural trade in the West Godavari region.
+
+The marketplace can contain listings based on:
+
+* Villages
+* Mandals
+* Farmer locations
+* Agricultural produce available in the region
+
+---
+
+## 👥 User Roles
+
+The application contains three primary user roles:
+
+### 👨‍🌾 Farmer
+
+Farmers can:
+
+* Manage their profile
+* Add and manage produce
+* Upload produce images
+* Receive buyer orders
+* Accept/reject orders
+* Update order status
+* Track earnings
+
+### 🛒 Buyer
+
+Buyers can:
+
+* Browse agricultural products
+* Search and filter produce
+* View farmer information
+* Add products to wishlist
+* Make offers
+* Purchase produce
+* Track orders
+
+### 👨‍💼 Admin
+
+Administrators can:
+
+* View farmers
+* View buyers
+* View products
+* View orders
+* Monitor the platform
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* Responsive Web Design
+
+### Backend / Services
+
+* Supabase
+* Supabase Authentication
+* Supabase Database
+* Role-based access structure
+
+### AI
+
+* Prototype AI services
+* Future ML-based price prediction
+* Future demand forecasting
+
+### Development & Deployment
+
+* GitHub
+* Vercel
+* Google AI Studio / Emergent AI for development assistance
+
+---
+
+## 🏗️ Application Structure
+
+```text
+AgriDirect
+│
+├── Public Pages
+│   ├── Home
+│   ├── Marketplace
+│   ├── How It Works
+│   ├── About
+│   ├── Login
+│   └── Register
+│
+├── Farmer
+│   ├── Dashboard
+│   ├── Profile
+│   ├── Add Produce
+│   ├── Manage Listings
+│   ├── Orders
+│   └── Earnings
+│
+├── Buyer
+│   ├── Dashboard
+│   ├── Marketplace
+│   ├── Product Details
+│   ├── Wishlist
+│   └── Orders
+│
+└── Admin
+    ├── Dashboard
+    ├── Farmers
+    ├── Buyers
+    ├── Products
+    └── Orders
+```
+
+---
+
+## 🔐 Authentication & Security
+
+The application uses Supabase authentication and follows a role-based access structure.
+
+The system is designed to ensure that:
+
+* Users can access appropriate dashboards based on their role
+* Farmers can manage their own listings
+* Buyers can access their own orders
+* Admin functionality is restricted to administrators
+* Protected pages require authentication
+* Supabase service-role keys are never exposed in frontend code
+
+---
+
+## 📱 Responsive Design
+
+AgriDirect follows a **mobile-first design approach**.
+
+The farmer interface is intentionally kept simple because farmers may primarily access the platform through smartphones.
+
+The application is designed to work across:
+
+* 📱 Mobile
+* 💻 Desktop
+* 🖥️ Larger screens
+
+---
+
+## 🔄 Order Workflow
+
+The planned order workflow is:
+
+```text
+Order Placed
+      ↓
+Farmer Accepts
+      ↓
+Preparing
+      ↓
+Ready for Pickup
+      ↓
+Out for Delivery
+      ↓
+Delivered
+```
+
+This provides buyers with visibility into the progress of their orders.
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/trishithagirijala24-source/agri-direct-west-godavari.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd agri-direct-west-godavari
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file based on `.env.example`.
+
 Example:
 
-🔔 New Order Received!
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-Ravi Kumar ordered
-10 kg Fresh Tomatoes.
+Do **not** add private service-role keys to frontend environment variables.
 
-Order #ORD1024
-📊 Farmer Price Insights
-Farmers will be able to view:
+### 5. Start Development Server
 
-Average listed price
-Current selling price
-Price comparison
-Price trends
-Competitive pricing suggestions
-📸 Farmer Produce Photo Upload
-Farmers will be able to:
-
-Capture a photo using their phone
-Upload produce images
-Replace existing product images
-🔍 Product Image Zoom
-Buyers will be able to open product images in a larger view before ordering.
-
-🍉 More Produce
-Future listings can include:
-
-Mango
-Guava
-Watermelon
-Papaya
-Pineapple
-Other regional agricultural products
-🛠️ Technology Stack
-Frontend
-Next.js
-React
-JavaScript
-Tailwind CSS
-Responsive UI
-Backend
-Next.js API Routes
-Node.js
-MongoDB
-Authentication
-JWT
-HTTP-only cookies
-Role-based authorization
-Testing
-Python-based backend testing
-Automated API validation
-Frontend UI testing planned
-🏗️ Project Architecture
-farmer-to-market/
-│
-├── app/
-│   ├── api/
-│   ├── marketplace/
-│   ├── farmer/
-│   ├── buyer/
-│   ├── admin/
-│   └── ...
-│
-├── components/
-│   └── ui/
-│
-├── hooks/
-│
-├── lib/
-│
-├── memory/
-│
-├── tests/
-│
-├── test_reports/
-│
-├── backend_test.py
-├── test_result.md
-├── package.json
-├── next.config.js
-├── tailwind.config.js
-└── README.md
-⚙️ Getting Started
-1. Clone the repository
-git clone https://github.com/trishithagirijala9999-creator/farmer-to-market.git
-2. Open the project
-cd farmer-to-market
-3. Install dependencies
-npm install
-4. Configure environment variables
-Create a .env.local file and configure the required MongoDB and authentication environment variables.
-
-Do not commit private credentials or secret keys to GitHub.
-
-5. Start the development server
+```bash
 npm run dev
-The application should then be available at:
+```
 
-http://localhost:3000
-👥 Demo Accounts
-For development/testing, the project currently includes demo accounts:
+The application will then be available through the local development URL shown by Vite.
 
-Farmer
-Email: farmer@agridirect.in
-Password: farmer123
-Buyer
-Email: buyer@agridirect.in
-Password: buyer123
-Admin
-Email: admin@agridirect.in
-Password: admin123
-⚠️ These credentials are intended only for development/demo purposes. Do not use them in a production deployment.
+---
 
-🎯 Project Goals
-The main goals of AgriDirect are to:
+## 🚀 Deployment
 
-Increase farmer market access
-Reduce unnecessary intermediaries
-Improve price transparency
-Help farmers reach direct customers
-Make agricultural products easier to discover
-Provide a simple digital marketplace
-Support local-language users
-Encourage digital adoption among farmers
-🌱 Future Vision
-AgriDirect can eventually evolve into a larger agricultural ecosystem with:
+The project can be deployed using Vercel.
 
-🤖 AI-based crop price prediction
-📈 Market demand forecasting
-🌦️ Weather-based farming insights
-🗺️ Location-based farmer discovery
-🚚 Delivery partner integration
-💳 Online payments
-📊 Advanced farmer analytics
-🧠 AI crop recommendations
-🗣️ Telugu AI farming assistant
-📱 Progressive Web App / mobile application
-🏆 Project Type
-Academic / Hackathon Project
+Production deployment:
 
-Domain: Agriculture + E-Commerce + Digital Transformation
+**AgriDirect – West Godavari**
 
-Target Region: West Godavari, Andhra Pradesh, India
+The GitHub `main` branch can be connected to Vercel so that future commits can trigger new deployments.
 
-Primary Users:
+---
 
-Farmers
-Buyers
-Administrators
-👩‍💻 Developer
-Trishitha Girijala
+## 🧪 Testing
 
-B.Tech – Computer Science / AI & ML
+Before a production release, test:
 
-📄 License
-This project is currently intended for academic and educational purposes.
+* Authentication
+* Farmer registration/login
+* Buyer registration/login
+* Admin access
+* Protected routes
+* Add/edit/delete produce
+* Marketplace search
+* Marketplace filters
+* Product details
+* Wishlist
+* Order creation
+* Order status updates
+* Farmer image uploads
+* Telugu language interface
+* Mobile responsiveness
+* Missing/invalid product images
+* Supabase integration
 
-⭐ Support the Project
-If you find the project useful, consider giving the repository a ⭐ on GitHub.
+---
 
-AgriDirect – Connecting Farmers Directly to Their Markets. 🌾
+## 🔮 Future Enhancements
 
+Future versions of AgriDirect may include:
+
+* 💳 Razorpay/UPI payment integration
+* 🗺️ Google Maps delivery tracking
+* 🔔 Real-time order notifications
+* 📊 Advanced marketplace analytics
+* 🤖 Production AI price prediction
+* 📈 Real-time demand forecasting
+* 🚚 Delivery partner module
+* 📸 Advanced produce image verification
+* ⭐ Buyer and farmer ratings
+* 💬 Buyer-farmer communication
+* 📱 Progressive Web App
+* 🌾 Integration with verified agricultural market data
+
+---
+
+## 🏆 Smart India Hackathon
+
+**Project Name:** AgriDirect – West Godavari
+
+**Concept:** Farmer-to-Market Digital Marketplace App for West Godavari Produce
+
+**Theme:** Agriculture / Digital Marketplace / Rural Technology
+
+**Region:** West Godavari, Andhra Pradesh
+
+**Developed for:** Smart India Hackathon 2026
+
+---
+
+## 👥 Team Structure
+
+Our six-member team divides the project into specialized responsibilities:
+
+| Member      | Role                                     | Responsibility                                                  |
+| ----------- | ---------------------------------------- | --------------------------------------------------------------- |
+| 👑 Member 1 | **Team Lead & System Architect**         | Project planning, architecture, coordination and integration    |
+| 🎨 Member 2 | **Frontend & UI/UX Developer**           | React, TypeScript, Tailwind CSS and responsive interface        |
+| ⚙️ Member 3 | **Backend & Database Developer**         | Supabase, authentication, database and access control           |
+| 🌾 Member 4 | **Farmer & Marketplace Developer**       | Farmer module, produce listings, marketplace and product images |
+| 🛒 Member 5 | **Buyer, Orders & Admin Developer**      | Buyer module, orders, tracking and admin dashboard              |
+| 🤖 Member 6 | **AI/ML, Testing & Deployment Engineer** | AI prototypes, testing, debugging, GitHub and Vercel deployment |
+
+---
+
+## ⚠️ Prototype Notice
+
+AgriDirect is a **Smart India Hackathon prototype**.
+
+Some farmer profiles, marketplace listings, prices, AI predictions and other information may use demonstration data.
+
+The prototype should not be interpreted as providing government-verified agricultural market prices, financial services or real payment processing unless the corresponding production services are integrated and verified.
+
+---
+
+## 🌾 Vision
+
+Our vision is to create a simple digital bridge between **West Godavari farmers and buyers**, helping agricultural producers reach markets directly while making the buying process more transparent and accessible.
+
+> **AgriDirect – Connecting Farmers Directly to Markets. 🌾**
+
+---
+
+## 📄 License
+
+This project is developed as a prototype for **Smart India Hackathon 2026**.
